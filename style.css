@@ -1,0 +1,21 @@
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    
+    margin: auto;
+    margin-top: 300px;
+    animation-name: paint;
+    animation-delay: 0.1s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes paint{
+        from{
+        margin-left: 0px;
+    }
+    top{
+        margin-left: 400px;
+    }
+}
+
